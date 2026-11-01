@@ -1,0 +1,43 @@
+sentence,segment,stage,voice,dimension,sub,item,pos
+5,1,I. Encounter,narration,sight_and_blindness,literal_sight,my eyes sensitive only to light and darkness,36
+5,1,I. Encounter,narration,sight_and_blindness,literal_sight,i was totally blind at the time,3
+8,1,I. Encounter,narration,sight_and_blindness,substitute_senses,the sound of her slippers,44
+9,2,I. Encounter,narrator_aloud,turn_taking,questions,are you going all the way to dehra,1
+9,2,I. Encounter,narrator_aloud,turn_taking,turn_markers,i asked,38
+13,2,I. Encounter,narration,evasion_and_assumption,assumption,"they have too much to take in, i suppose",0
+15,2,I. Encounter,narrator_aloud,performance_and_concealment,pretence,i didn't see you either,1
+15,2,I. Encounter,narrator_aloud,turn_taking,turn_markers,i said,27
+16,2,I. Encounter,narrator_aloud,sight_and_blindness,substitute_senses,i heard you come in,5
+17,3,I. Encounter,narration,performance_and_concealment,concealment,i wondered if i would be able to prevent her from discovering that i was blind,0
+21,3,I. Encounter,narrator_aloud,evasion_and_assumption,face_work,then i had better not get too familiar,1
+22,3,I. Encounter,narrator_aloud,evasion_and_assumption,assumption,aunts are usually formidable creatures,1
+23,4,II. Performance,girl,turn_taking,questions,where are you going,1
+29,4,II. Performance,narrator_aloud,turn_taking,turn_markers,i said,30
+33,5,II. Performance,narration,turn_taking,silence_and_closure,she was silent,0
+34,5,II. Performance,narration,evasion_and_assumption,assumption,i wondered if my words had touched her or whether she thought me a romantic fool,0
+36,5,II. Performance,narrator_aloud,turn_taking,questions,what is it like outside,1
+36,5,II. Performance,narrator_aloud,turn_taking,turn_markers,i asked,27
+38,5,II. Performance,narration,evasion_and_assumption,assumption,had she noticed already that i could not see,0
+40,6,II. Performance,girl,turn_taking,questions,why don't you look out of the window,1
+43,6,II. Performance,narration,sight_and_blindness,substitute_senses,"i heard the panting of the engine, the rumble of the wheels",0
+43,6,II. Performance,narration,sight_and_blindness,imagined_sight,in my mind's eye i could see telegraph posts flashing by,66
+44,6,II. Performance,narrator_aloud,turn_taking,questions,"have you noticed,' i ventured, 'that the trees seem to be moving while we seem to be standing still",1
+45,6,II. Performance,girl,turn_taking,turn_markers,"that always happens,' she said",1
+46,6,II. Performance,girl,turn_taking,questions,do you see any animals,1
+48,7,III. Flattery and parting,narration,performance_and_concealment,concealment,i knew that there were hardly any animals left in the forests near dehra,0
+49,7,III. Flattery and parting,narration,turn_taking,silence_and_closure,i turned from the window and faced the girl and for a while we sat in silence,0
+50,7,III. Flattery and parting,narrator_aloud,turn_taking,turn_markers,"you have an interesting face,' i remarked",1
+56,8,III. Flattery and parting,narration,evasion_and_assumption,assumption,"oh, so you do have a pretty face, thought i",0
+57,8,III. Flattery and parting,narrator_aloud,turn_taking,turn_markers,i said,10
+58,8,III. Flattery and parting,girl,turn_taking,turn_markers,"you are a very gallant young man,' she said",1
+59,8,III. Flattery and parting,girl,turn_taking,turn_markers,but why are you so serious,1
+60,8,III. Flattery and parting,narration,evasion_and_assumption,evasion,"i thought, then, that i would try to laugh for her, but the thought of laughter only made me feel troubled and lonely",0
+61,8,III. Flattery and parting,narrator_aloud,turn_taking,turn_markers,"we'll soon be at your station,' i said",1
+78,11,IV. Revelation,narration,sight_and_blindness,substitute_senses,i wanted to raise my hand and touch her hair but she moved away,0
+80,11,IV. Revelation,narration,turn_taking,silence_and_closure,there was some confusion in the doorway,0
+82,11,IV. Revelation,narration,turn_taking,silence_and_closure,then the door banged and the world was shut out again,0
+87,11,IV. Revelation,narration,sight_and_blindness,literal_sight,staring into the daylight that was darkness for me,43
+91,12,IV. Revelation,man,turn_taking,turn_markers,"you must be disappointed,' he said",1
+93,12,IV. Revelation,narrator_aloud,turn_taking,turn_markers,"she was an interesting girl,' i said",1
+94,12,IV. Revelation,narrator_aloud,evasion_and_assumption,evasion,can you tell me—did she keep her hair long or short,1
+95,12,IV. Revelation,man,turn_taking,turn_markers,"i don't remember,' he said sounding puzzled",1

@@ -1,0 +1,61 @@
+You are assisting a literary researcher who is doing a reader-oriented analysis of Ruskin Bond's short story "The Eyes Have It". In the story, a blind narrator shares a train compartment with a girl and talks with her; the passage below is one part of the story.
+
+RESEARCH QUESTIONS:
+(1) What is the metaphor of sight and blindness across the full story? (2) How do linguistic markers of evasion, assumption and conversational turn-taking reveal the underlying information asymmetry and mutual deception between the narrator and the girl?
+
+YOUR MISSION:
+Extract words and phrases from the passage that relate to the four dimensions defined below, and classify them into the sub-types.
+
+DIMENSIONS AND SUB-TYPES:
+Sight and blindness (sight_and_blindness): The language of seeing and not seeing, used literally and as metaphor, and the senses that stand in for sight.
+  - literal_sight: Eyes, seeing, looking, noticing, light and darkness, and blindness as physical facts.
+  - imagined_sight: Seeing in memory, imagination or guesswork: pictures formed without the eyes.
+  - substitute_senses: Hearing, touch and smell used in place of sight: voices, sounds, scents and the feel of things.
+
+Performance and concealment (performance_and_concealment): Acts that pretend to see, hide a lack of sight, or expose what was hidden.
+  - pretence: Actions and remarks that act out sight in front of another person (turning to the window, describing a view, commenting on someone's appearance).
+  - concealment: Words that show a character hiding something, fearing discovery or playing a part.
+  - revelation: Words that expose what was hidden, or show that something was not noticed.
+
+Evasion and assumption (evasion_and_assumption): How each speaker avoids giving information and guesses at what the other knows.
+  - evasion: Replies that deflect, generalise, joke or change the subject instead of answering directly.
+  - assumption: Guesses, inferences and markers of uncertainty about the other person or the world (probably, perhaps, must have, seemed, I suppose, I wondered).
+  - face_work: Compliments, polite formulas and gallantry that protect each speaker's self-image and smooth over what is not said.
+
+Conversational turn-taking (turn_taking): How the conversation is organised: who asks, who answers, and where it stops.
+  - questions: Questions asked by any speaker, copied as whole questions.
+  - turn_markers: Speech verbs and phrases that open or close a turn or attribute it to a speaker (I asked, she said, I ventured).
+  - silence_and_closure: Silences, pauses, interruptions, farewells and the ending of the conversation.
+
+STRICT RULES:
+1. Copy phrases exactly word-for-word from the text. Do not rewrite, translate, paraphrase, or change any word. Do not lower-case if capitalized.
+2. Prefer the shortest phrase that fully carries the meaning (usually 1 to 5 words). Never extract whole paragraphs or multiple sentences.
+3. Put each phrase under exactly one sub-type. If a phrase fits more than one sub-type, choose the best one. Do not repeat phrases.
+4. Return your answer as a JSON object that matches the schema below. Do not include any other text, explanation, markdown, or comments.
+
+JSON SCHEMA:
+{
+ "sight_and_blindness": {
+  "literal_sight": [],
+  "imagined_sight": [],
+  "substitute_senses": []
+ },
+ "performance_and_concealment": {
+  "pretence": [],
+  "concealment": [],
+  "revelation": []
+ },
+ "evasion_and_assumption": {
+  "evasion": [],
+  "assumption": [],
+  "face_work": []
+ },
+ "turn_taking": {
+  "questions": [],
+  "turn_markers": [],
+  "silence_and_closure": []
+ }
+}
+
+PASSAGE:
+{{PASSAGE}}

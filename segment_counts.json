@@ -1,0 +1,422 @@
+[
+  {
+    "sentence": 5,
+    "segment": 1,
+    "stage": "I. Encounter",
+    "voice": "narration",
+    "dimension": "sight_and_blindness",
+    "sub": "literal_sight",
+    "item": "my eyes sensitive only to light and darkness",
+    "pos": 36
+  },
+  {
+    "sentence": 5,
+    "segment": 1,
+    "stage": "I. Encounter",
+    "voice": "narration",
+    "dimension": "sight_and_blindness",
+    "sub": "literal_sight",
+    "item": "i was totally blind at the time",
+    "pos": 3
+  },
+  {
+    "sentence": 8,
+    "segment": 1,
+    "stage": "I. Encounter",
+    "voice": "narration",
+    "dimension": "sight_and_blindness",
+    "sub": "substitute_senses",
+    "item": "the sound of her slippers",
+    "pos": 44
+  },
+  {
+    "sentence": 9,
+    "segment": 2,
+    "stage": "I. Encounter",
+    "voice": "narrator_aloud",
+    "dimension": "turn_taking",
+    "sub": "questions",
+    "item": "are you going all the way to dehra",
+    "pos": 1
+  },
+  {
+    "sentence": 9,
+    "segment": 2,
+    "stage": "I. Encounter",
+    "voice": "narrator_aloud",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "i asked",
+    "pos": 38
+  },
+  {
+    "sentence": 13,
+    "segment": 2,
+    "stage": "I. Encounter",
+    "voice": "narration",
+    "dimension": "evasion_and_assumption",
+    "sub": "assumption",
+    "item": "they have too much to take in, i suppose",
+    "pos": 0
+  },
+  {
+    "sentence": 15,
+    "segment": 2,
+    "stage": "I. Encounter",
+    "voice": "narrator_aloud",
+    "dimension": "performance_and_concealment",
+    "sub": "pretence",
+    "item": "i didn't see you either",
+    "pos": 1
+  },
+  {
+    "sentence": 15,
+    "segment": 2,
+    "stage": "I. Encounter",
+    "voice": "narrator_aloud",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "i said",
+    "pos": 27
+  },
+  {
+    "sentence": 16,
+    "segment": 2,
+    "stage": "I. Encounter",
+    "voice": "narrator_aloud",
+    "dimension": "sight_and_blindness",
+    "sub": "substitute_senses",
+    "item": "i heard you come in",
+    "pos": 5
+  },
+  {
+    "sentence": 17,
+    "segment": 3,
+    "stage": "I. Encounter",
+    "voice": "narration",
+    "dimension": "performance_and_concealment",
+    "sub": "concealment",
+    "item": "i wondered if i would be able to prevent her from discovering that i was blind",
+    "pos": 0
+  },
+  {
+    "sentence": 21,
+    "segment": 3,
+    "stage": "I. Encounter",
+    "voice": "narrator_aloud",
+    "dimension": "evasion_and_assumption",
+    "sub": "face_work",
+    "item": "then i had better not get too familiar",
+    "pos": 1
+  },
+  {
+    "sentence": 22,
+    "segment": 3,
+    "stage": "I. Encounter",
+    "voice": "narrator_aloud",
+    "dimension": "evasion_and_assumption",
+    "sub": "assumption",
+    "item": "aunts are usually formidable creatures",
+    "pos": 1
+  },
+  {
+    "sentence": 23,
+    "segment": 4,
+    "stage": "II. Performance",
+    "voice": "girl",
+    "dimension": "turn_taking",
+    "sub": "questions",
+    "item": "where are you going",
+    "pos": 1
+  },
+  {
+    "sentence": 29,
+    "segment": 4,
+    "stage": "II. Performance",
+    "voice": "narrator_aloud",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "i said",
+    "pos": 30
+  },
+  {
+    "sentence": 33,
+    "segment": 5,
+    "stage": "II. Performance",
+    "voice": "narration",
+    "dimension": "turn_taking",
+    "sub": "silence_and_closure",
+    "item": "she was silent",
+    "pos": 0
+  },
+  {
+    "sentence": 34,
+    "segment": 5,
+    "stage": "II. Performance",
+    "voice": "narration",
+    "dimension": "evasion_and_assumption",
+    "sub": "assumption",
+    "item": "i wondered if my words had touched her or whether she thought me a romantic fool",
+    "pos": 0
+  },
+  {
+    "sentence": 36,
+    "segment": 5,
+    "stage": "II. Performance",
+    "voice": "narrator_aloud",
+    "dimension": "turn_taking",
+    "sub": "questions",
+    "item": "what is it like outside",
+    "pos": 1
+  },
+  {
+    "sentence": 36,
+    "segment": 5,
+    "stage": "II. Performance",
+    "voice": "narrator_aloud",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "i asked",
+    "pos": 27
+  },
+  {
+    "sentence": 38,
+    "segment": 5,
+    "stage": "II. Performance",
+    "voice": "narration",
+    "dimension": "evasion_and_assumption",
+    "sub": "assumption",
+    "item": "had she noticed already that i could not see",
+    "pos": 0
+  },
+  {
+    "sentence": 40,
+    "segment": 6,
+    "stage": "II. Performance",
+    "voice": "girl",
+    "dimension": "turn_taking",
+    "sub": "questions",
+    "item": "why don't you look out of the window",
+    "pos": 1
+  },
+  {
+    "sentence": 43,
+    "segment": 6,
+    "stage": "II. Performance",
+    "voice": "narration",
+    "dimension": "sight_and_blindness",
+    "sub": "substitute_senses",
+    "item": "i heard the panting of the engine, the rumble of the wheels",
+    "pos": 0
+  },
+  {
+    "sentence": 43,
+    "segment": 6,
+    "stage": "II. Performance",
+    "voice": "narration",
+    "dimension": "sight_and_blindness",
+    "sub": "imagined_sight",
+    "item": "in my mind's eye i could see telegraph posts flashing by",
+    "pos": 66
+  },
+  {
+    "sentence": 44,
+    "segment": 6,
+    "stage": "II. Performance",
+    "voice": "narrator_aloud",
+    "dimension": "turn_taking",
+    "sub": "questions",
+    "item": "have you noticed,' i ventured, 'that the trees seem to be moving while we seem to be standing still",
+    "pos": 1
+  },
+  {
+    "sentence": 45,
+    "segment": 6,
+    "stage": "II. Performance",
+    "voice": "girl",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "that always happens,' she said",
+    "pos": 1
+  },
+  {
+    "sentence": 46,
+    "segment": 6,
+    "stage": "II. Performance",
+    "voice": "girl",
+    "dimension": "turn_taking",
+    "sub": "questions",
+    "item": "do you see any animals",
+    "pos": 1
+  },
+  {
+    "sentence": 48,
+    "segment": 7,
+    "stage": "III. Flattery and parting",
+    "voice": "narration",
+    "dimension": "performance_and_concealment",
+    "sub": "concealment",
+    "item": "i knew that there were hardly any animals left in the forests near dehra",
+    "pos": 0
+  },
+  {
+    "sentence": 49,
+    "segment": 7,
+    "stage": "III. Flattery and parting",
+    "voice": "narration",
+    "dimension": "turn_taking",
+    "sub": "silence_and_closure",
+    "item": "i turned from the window and faced the girl and for a while we sat in silence",
+    "pos": 0
+  },
+  {
+    "sentence": 50,
+    "segment": 7,
+    "stage": "III. Flattery and parting",
+    "voice": "narrator_aloud",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "you have an interesting face,' i remarked",
+    "pos": 1
+  },
+  {
+    "sentence": 56,
+    "segment": 8,
+    "stage": "III. Flattery and parting",
+    "voice": "narration",
+    "dimension": "evasion_and_assumption",
+    "sub": "assumption",
+    "item": "oh, so you do have a pretty face, thought i",
+    "pos": 0
+  },
+  {
+    "sentence": 57,
+    "segment": 8,
+    "stage": "III. Flattery and parting",
+    "voice": "narrator_aloud",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "i said",
+    "pos": 10
+  },
+  {
+    "sentence": 58,
+    "segment": 8,
+    "stage": "III. Flattery and parting",
+    "voice": "girl",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "you are a very gallant young man,' she said",
+    "pos": 1
+  },
+  {
+    "sentence": 59,
+    "segment": 8,
+    "stage": "III. Flattery and parting",
+    "voice": "girl",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "but why are you so serious",
+    "pos": 1
+  },
+  {
+    "sentence": 60,
+    "segment": 8,
+    "stage": "III. Flattery and parting",
+    "voice": "narration",
+    "dimension": "evasion_and_assumption",
+    "sub": "evasion",
+    "item": "i thought, then, that i would try to laugh for her, but the thought of laughter only made me feel troubled and lonely",
+    "pos": 0
+  },
+  {
+    "sentence": 61,
+    "segment": 8,
+    "stage": "III. Flattery and parting",
+    "voice": "narrator_aloud",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "we'll soon be at your station,' i said",
+    "pos": 1
+  },
+  {
+    "sentence": 78,
+    "segment": 11,
+    "stage": "IV. Revelation",
+    "voice": "narration",
+    "dimension": "sight_and_blindness",
+    "sub": "substitute_senses",
+    "item": "i wanted to raise my hand and touch her hair but she moved away",
+    "pos": 0
+  },
+  {
+    "sentence": 80,
+    "segment": 11,
+    "stage": "IV. Revelation",
+    "voice": "narration",
+    "dimension": "turn_taking",
+    "sub": "silence_and_closure",
+    "item": "there was some confusion in the doorway",
+    "pos": 0
+  },
+  {
+    "sentence": 82,
+    "segment": 11,
+    "stage": "IV. Revelation",
+    "voice": "narration",
+    "dimension": "turn_taking",
+    "sub": "silence_and_closure",
+    "item": "then the door banged and the world was shut out again",
+    "pos": 0
+  },
+  {
+    "sentence": 87,
+    "segment": 11,
+    "stage": "IV. Revelation",
+    "voice": "narration",
+    "dimension": "sight_and_blindness",
+    "sub": "literal_sight",
+    "item": "staring into the daylight that was darkness for me",
+    "pos": 43
+  },
+  {
+    "sentence": 91,
+    "segment": 12,
+    "stage": "IV. Revelation",
+    "voice": "man",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "you must be disappointed,' he said",
+    "pos": 1
+  },
+  {
+    "sentence": 93,
+    "segment": 12,
+    "stage": "IV. Revelation",
+    "voice": "narrator_aloud",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "she was an interesting girl,' i said",
+    "pos": 1
+  },
+  {
+    "sentence": 94,
+    "segment": 12,
+    "stage": "IV. Revelation",
+    "voice": "narrator_aloud",
+    "dimension": "evasion_and_assumption",
+    "sub": "evasion",
+    "item": "can you tell me—did she keep her hair long or short",
+    "pos": 1
+  },
+  {
+    "sentence": 95,
+    "segment": 12,
+    "stage": "IV. Revelation",
+    "voice": "man",
+    "dimension": "turn_taking",
+    "sub": "turn_markers",
+    "item": "i don't remember,' he said sounding puzzled",
+    "pos": 1
+  }
+]

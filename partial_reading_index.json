@@ -1,0 +1,65 @@
+{
+  "text": "The Eyes Have It",
+  "author": "Ruskin Bond",
+  "corpus_sha256": "a4722115f10585ac682d131e7ca3b76500565ec702c3d179687f69cfce59021f",
+  "total_sentences": 100,
+  "parts": 3,
+  "fraction_per_part": 0.2,
+  "seed": 42,
+  "selection": [
+    {
+      "part": 1,
+      "sentences": [
+        1,
+        34
+      ],
+      "strategy": "first",
+      "sentences_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "marked_phrases": 3
+    },
+    {
+      "part": 2,
+      "sentences": [
+        35,
+        67
+      ],
+      "strategy": "random",
+      "sentences_read": [
+        36,
+        39,
+        42,
+        43,
+        58,
+        63,
+        67
+      ],
+      "marked_phrases": 7
+    },
+    {
+      "part": 3,
+      "sentences": [
+        68,
+        100
+      ],
+      "strategy": "last",
+      "sentences_read": [
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100
+      ],
+      "marked_phrases": 6
+    }
+  ]
+}

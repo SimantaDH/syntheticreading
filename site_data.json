@@ -1,0 +1,1116 @@
+{
+ "source": "Colab run of 31 October 2026",
+ "run": {
+  "model": "qwen2.5:7b (run locally with Ollama 0.40.13 on Tesla T4)",
+  "date": "31 October 2026",
+  "returned": 54,
+  "kept": 49,
+  "hits": 42,
+  "removed": [
+   {
+    "dimension": "performance_and_concealment",
+    "sub": "pretence",
+    "phrase": "I heard you come in",
+    "reason": "duplicate of sight_and_blindness / substitute_senses"
+   },
+   {
+    "dimension": "performance_and_concealment",
+    "sub": "pretence",
+    "phrase": "I made a pretence of studying the landscape",
+    "reason": "not found word for word in the story"
+   },
+   {
+    "dimension": "evasion_and_assumption",
+    "sub": "evasion",
+    "phrase": "I didn’t see you either",
+    "reason": "duplicate of performance_and_concealment / pretence"
+   },
+   {
+    "dimension": "evasion_and_assumption",
+    "sub": "evasion",
+    "phrase": "I wondered if I would be able to prevent her from discovering that I was blind",
+    "reason": "duplicate of performance_and_concealment / concealment"
+   },
+   {
+    "dimension": "turn_taking",
+    "sub": "questions",
+    "phrase": "Can you tell me—did she keep her hair long or short?",
+    "reason": "duplicate of evasion_and_assumption / evasion"
+   }
+  ]
+ },
+ "corpus": {
+  "sha256": "a4722115f10585ac682d131e7ca3b76500565ec702c3d179687f69cfce59021f",
+  "sentences": 99,
+  "paragraphs": 42,
+  "words": 1099
+ },
+ "partial_reading": {
+  "total_sentences": 100,
+  "selection": [
+   {
+    "part": 1,
+    "name": "Beginning",
+    "sentences": [
+     1,
+     34
+    ],
+    "strategy": "first",
+    "lines_read": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ]
+   },
+   {
+    "part": 2,
+    "name": "Middle",
+    "sentences": [
+     35,
+     67
+    ],
+    "strategy": "random",
+    "lines_read": [
+     36,
+     39,
+     42,
+     43,
+     58,
+     63,
+     67
+    ]
+   },
+   {
+    "part": 3,
+    "name": "End",
+    "sentences": [
+     68,
+     100
+    ],
+    "strategy": "last",
+    "lines_read": [
+     94,
+     95,
+     96,
+     97,
+     98,
+     99,
+     100
+    ]
+   }
+  ]
+ },
+ "research_questions": [
+  "What is the metaphor of sight and blindness across the full story?",
+  "How do linguistic markers of evasion, assumption and conversational turn-taking reveal the underlying information asymmetry and mutual deception between the narrator and the girl?"
+ ],
+ "claims": [
+  {
+   "id": "C1",
+   "statement": "Imagined sight (memory, guesswork, the mind's eye) is concentrated in the middle of the story, where the narrator performs being sighted.",
+   "verdict": "Inconclusive",
+   "evidence": "only 1 hit(s) of imagined sight were found, too few to judge"
+  },
+  {
+   "id": "C2",
+   "statement": "The language of pretence and concealment runs through the conversation with the girl, while the language of revelation is concentrated at the end.",
+   "verdict": "Partly supported",
+   "evidence": "3 of 3 pretence and concealment hits fall in Stages I–III; no revelation hits were found"
+  },
+  {
+   "id": "C3",
+   "statement": "Markers of evasion and assumption appear in the girl's speech as well as in the narrator's narration and speech, so the deception is mutual in the language and not only in the plot.",
+   "verdict": "Not supported",
+   "evidence": "the girl's speech has 0 markers (0.00 per 100 words); the narrator's narration and speech have 8 (0.88 per 100 words)"
+  },
+  {
+   "id": "C4",
+   "statement": "Turn-taking is densest while the narrator and the girl are talking, and becomes sparser after she leaves.",
+   "verdict": "Not supported",
+   "evidence": "turn-taking has 2.08 hits per 100 words in Stages I–III and 2.14 in Stage IV"
+  }
+ ],
+ "dimensions": [
+  {
+   "key": "sight_and_blindness",
+   "label": "Sight and blindness",
+   "definition": "The language of seeing and not seeing, used literally and as metaphor, and the senses that stand in for sight.",
+   "subs": [
+    {
+     "key": "literal_sight",
+     "label": "Literal sight",
+     "definition": "Eyes, seeing, looking, noticing, light and darkness, and blindness as physical facts.",
+     "items": [
+      {
+       "phrase": "I was totally blind at the time",
+       "hits": 1
+      },
+      {
+       "phrase": "my eyes sensitive only to light and darkness",
+       "hits": 1
+      },
+      {
+       "phrase": "staring into the daylight that was darkness for me",
+       "hits": 1
+      }
+     ]
+    },
+    {
+     "key": "imagined_sight",
+     "label": "Imagined sight",
+     "definition": "Seeing in memory, imagination or guesswork: pictures formed without the eyes.",
+     "items": [
+      {
+       "phrase": "in my mind's eye I could see telegraph posts flashing by",
+       "hits": 1
+      },
+      {
+       "phrase": "She had beautiful eyes but they were of no use to her. She was completely blind. Didn’t you notice",
+       "hits": 0
+      }
+     ]
+    },
+    {
+     "key": "substitute_senses",
+     "label": "Substitute senses",
+     "definition": "Hearing, touch and smell used in place of sight: voices, sounds, scents and the feel of things.",
+     "items": [
+      {
+       "phrase": "I heard you come in",
+       "hits": 1
+      },
+      {
+       "phrase": "the sound of her slippers",
+       "hits": 1
+      },
+      {
+       "phrase": "I heard the panting of the engine, the rumble of the wheels",
+       "hits": 1
+      },
+      {
+       "phrase": "I wanted to raise my hand and touch her hair but she moved away",
+       "hits": 1
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "performance_and_concealment",
+   "label": "Performance and concealment",
+   "definition": "Acts that pretend to see, hide a lack of sight, or expose what was hidden.",
+   "subs": [
+    {
+     "key": "pretence",
+     "label": "Pretence",
+     "definition": "Actions and remarks that act out sight in front of another person (turning to the window, describing a view, commenting on someone's appearance).",
+     "items": [
+      {
+       "phrase": "I didn’t see you either",
+       "hits": 1
+      },
+      {
+       "phrase": "She was an interesting girl",
+       "hits": 0
+      }
+     ]
+    },
+    {
+     "key": "concealment",
+     "label": "Concealment",
+     "definition": "Words that show a character hiding something, fearing discovery or playing a part.",
+     "items": [
+      {
+       "phrase": "I wondered if I would be able to prevent her from discovering that I was blind",
+       "hits": 1
+      },
+      {
+       "phrase": "I knew that there were hardly any animals left in the forests near Dehra",
+       "hits": 1
+      },
+      {
+       "phrase": "I don’t remember",
+       "hits": 0
+      }
+     ]
+    },
+    {
+     "key": "revelation",
+     "label": "Revelation",
+     "definition": "Words that expose what was hidden, or show that something was not noticed.",
+     "items": [
+      {
+       "phrase": "She had beautiful eyes but they were of no use to her. She was completely blind",
+       "hits": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "evasion_and_assumption",
+   "label": "Evasion and assumption",
+   "definition": "How each speaker avoids giving information and guesses at what the other knows.",
+   "subs": [
+    {
+     "key": "evasion",
+     "label": "Evasion",
+     "definition": "Replies that deflect, generalise, joke or change the subject instead of answering directly.",
+     "items": [
+      {
+       "phrase": "I ventured, ‘that the trees seem to be moving while we seem to be standing still?’",
+       "hits": 0
+      },
+      {
+       "phrase": "I thought, then, that I would try to laugh for her, but the thought of laughter only made me feel troubled and lonely",
+       "hits": 1
+      },
+      {
+       "phrase": "Can you tell me—did she keep her hair long or short",
+       "hits": 1
+      }
+     ]
+    },
+    {
+     "key": "assumption",
+     "label": "Assumption",
+     "definition": "Guesses, inferences and markers of uncertainty about the other person or the world (probably, perhaps, must have, seemed, I suppose, I wondered).",
+     "items": [
+      {
+       "phrase": "They have too much to take in, I suppose",
+       "hits": 1
+      },
+      {
+       "phrase": "Aunts are usually formidable creatures",
+       "hits": 1
+      },
+      {
+       "phrase": "I wondered if my words had touched her or whether she thought me a romantic fool",
+       "hits": 1
+      },
+      {
+       "phrase": "Had she noticed already that I could not see",
+       "hits": 1
+      },
+      {
+       "phrase": "Oh, so you do have a pretty face, thought I",
+       "hits": 1
+      },
+      {
+       "phrase": "I wondered if she wore her hair in a bun or if it was plaited. Perhaps it was hanging loose over her shoulders. Or was it cut very short",
+       "hits": 0
+      }
+     ]
+    },
+    {
+     "key": "face_work",
+     "label": "Face work",
+     "definition": "Compliments, polite formulas and gallantry that protect each speaker's self-image and smooth over what is not said.",
+     "items": [
+      {
+       "phrase": "Then I had better not get too familiar",
+       "hits": 1
+      },
+      {
+       "phrase": "‘You are a very gallant young man’",
+       "hits": 0
+      },
+      {
+       "phrase": "You must be disappointed",
+       "hits": 0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "key": "turn_taking",
+   "label": "Conversational turn-taking",
+   "definition": "How the conversation is organised: who asks, who answers, and where it stops.",
+   "subs": [
+    {
+     "key": "questions",
+     "label": "Questions",
+     "definition": "Questions asked by any speaker, copied as whole questions.",
+     "items": [
+      {
+       "phrase": "Are you going all the way to Dehra",
+       "hits": 1
+      },
+      {
+       "phrase": "Where are you going",
+       "hits": 1
+      },
+      {
+       "phrase": "‘What is it like outside?’",
+       "hits": 1
+      },
+      {
+       "phrase": "‘Why don’t you look out of the window?’",
+       "hits": 1
+      },
+      {
+       "phrase": "‘Have you noticed,’ I ventured, ‘that the trees seem to be moving while we seem to be standing still?’",
+       "hits": 1
+      },
+      {
+       "phrase": "‘Do you see any animals?’",
+       "hits": 1
+      }
+     ]
+    },
+    {
+     "key": "turn_markers",
+     "label": "Turn markers",
+     "definition": "Speech verbs and phrases that open or close a turn or attribute it to a speaker (I asked, she said, I ventured).",
+     "items": [
+      {
+       "phrase": "I asked",
+       "hits": 2
+      },
+      {
+       "phrase": "She said",
+       "hits": 0
+      },
+      {
+       "phrase": "I said",
+       "hits": 3
+      },
+      {
+       "phrase": "‘That always happens,’ she said",
+       "hits": 1
+      },
+      {
+       "phrase": "‘You have an interesting face,’ I remarked",
+       "hits": 1
+      },
+      {
+       "phrase": "‘It’s nice to be told I have an interesting face. I’m tired of people telling me I have a pretty face.’",
+       "hits": 0
+      },
+      {
+       "phrase": "‘You are a very gallant young man,’ she said",
+       "hits": 1
+      },
+      {
+       "phrase": "‘But why are you so serious?’",
+       "hits": 1
+      },
+      {
+       "phrase": "‘We’ll soon be at your station,’ I said",
+       "hits": 1
+      },
+      {
+       "phrase": "‘She was an interesting girl,’ I said",
+       "hits": 1
+      },
+      {
+       "phrase": "‘I don’t remember,’ he said sounding puzzled",
+       "hits": 1
+      },
+      {
+       "phrase": "‘You must be disappointed,’ he said",
+       "hits": 1
+      }
+     ]
+    },
+    {
+     "key": "silence_and_closure",
+     "label": "Silence and closure",
+     "definition": "Silences, pauses, interruptions, farewells and the ending of the conversation.",
+     "items": [
+      {
+       "phrase": "She was silent",
+       "hits": 1
+      },
+      {
+       "phrase": "I turned from the window and faced the girl and for a while we sat in silence",
+       "hits": 1
+      },
+      {
+       "phrase": "There was some confusion in the doorway",
+       "hits": 1
+      },
+      {
+       "phrase": "Then the door banged and the world was shut out again",
+       "hits": 1
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "stages": [
+  {
+   "name": "I. Encounter",
+   "words": 306
+  },
+  {
+   "name": "II. Performance",
+   "words": 237
+  },
+  {
+   "name": "III. Flattery and parting",
+   "words": 322
+  },
+  {
+   "name": "IV. Revelation",
+   "words": 234
+  }
+ ],
+ "segments": [
+  {
+   "id": 1,
+   "paras": "1-3",
+   "sentences": "1-8",
+   "stage": "I. Encounter",
+   "note": "The girl boards and the narrator is blind",
+   "words": 145
+  },
+  {
+   "id": 2,
+   "paras": "4-8",
+   "sentences": "9-16",
+   "stage": "I. Encounter",
+   "note": "First words: who saw whom",
+   "words": 102
+  },
+  {
+   "id": 3,
+   "paras": "9-10",
+   "sentences": "17-22",
+   "stage": "I. Encounter",
+   "note": "The resolve to hide, and the aunt at Saharanpur",
+   "words": 59
+  },
+  {
+   "id": 4,
+   "paras": "11-14",
+   "sentences": "23-32",
+   "stage": "II. Performance",
+   "note": "Mussoorie remembered, and the mistake",
+   "words": 91
+  },
+  {
+   "id": 5,
+   "paras": "15-17",
+   "sentences": "33-39",
+   "stage": "II. Performance",
+   "note": "\"What is it like outside?\"",
+   "words": 56
+  },
+  {
+   "id": 6,
+   "paras": "18-21",
+   "sentences": "40-46",
+   "stage": "II. Performance",
+   "note": "At the window: the pretence of looking",
+   "words": 90
+  },
+  {
+   "id": 7,
+   "paras": "22-25",
+   "sentences": "47-55",
+   "stage": "III. Flattery and parting",
+   "note": "Silence, then \"an interesting face\"",
+   "words": 86
+  },
+  {
+   "id": 8,
+   "paras": "26-29",
+   "sentences": "56-61",
+   "stage": "III. Flattery and parting",
+   "note": "Gallant and serious, and the journey's end",
+   "words": 68
+  },
+  {
+   "id": 9,
+   "paras": "30-31",
+   "sentences": "62-67",
+   "stage": "III. Flattery and parting",
+   "note": "Listening to her voice and wondering about her hair",
+   "words": 79
+  },
+  {
+   "id": 10,
+   "paras": "32-34",
+   "sentences": "68-75",
+   "stage": "III. Flattery and parting",
+   "note": "The station, goodbye and the perfume",
+   "words": 89
+  },
+  {
+   "id": 11,
+   "paras": "35-37",
+   "sentences": "76-87",
+   "stage": "IV. Revelation",
+   "note": "A new passenger and the guessing game",
+   "words": 130
+  },
+  {
+   "id": 12,
+   "paras": "38-42",
+   "sentences": "88-99",
+   "stage": "IV. Revelation",
+   "note": "The revelation",
+   "words": 104
+  }
+ ],
+ "voices": [
+  {
+   "key": "narration",
+   "label": "Narrator: narration and thought",
+   "words": 729,
+   "questions": 2
+  },
+  {
+   "key": "narrator_aloud",
+   "label": "Narrator: speaking aloud",
+   "words": 180,
+   "questions": 4
+  },
+  {
+   "key": "girl",
+   "label": "The girl",
+   "words": 135,
+   "questions": 4
+  },
+  {
+   "key": "man",
+   "label": "The man",
+   "words": 55,
+   "questions": 1
+  }
+ ],
+ "counts": {
+  "stage": {
+   "sight_and_blindness": [
+    4,
+    2,
+    0,
+    2
+   ],
+   "performance_and_concealment": [
+    2,
+    0,
+    1,
+    0
+   ],
+   "evasion_and_assumption": [
+    3,
+    2,
+    2,
+    1
+   ],
+   "turn_taking": [
+    3,
+    9,
+    6,
+    5
+   ]
+  },
+  "stage_density": {
+   "sight_and_blindness": [
+    1.3072,
+    0.8439,
+    0.0,
+    0.8547
+   ],
+   "performance_and_concealment": [
+    0.6536,
+    0.0,
+    0.3106,
+    0.0
+   ],
+   "evasion_and_assumption": [
+    0.9804,
+    0.8439,
+    0.6211,
+    0.4274
+   ],
+   "turn_taking": [
+    0.9804,
+    3.7975,
+    1.8634,
+    2.1368
+   ]
+  },
+  "segment": {
+   "sight_and_blindness": [
+    3,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "performance_and_concealment": [
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "evasion_and_assumption": [
+    0,
+    1,
+    2,
+    0,
+    2,
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    1
+   ],
+   "turn_taking": [
+    0,
+    3,
+    0,
+    2,
+    3,
+    4,
+    2,
+    4,
+    0,
+    0,
+    2,
+    3
+   ]
+  },
+  "segment_density": {
+   "sight_and_blindness": [
+    2.069,
+    0.9804,
+    0.0,
+    0.0,
+    0.0,
+    2.2222,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.5385,
+    0.0
+   ],
+   "performance_and_concealment": [
+    0.0,
+    0.9804,
+    1.6949,
+    0.0,
+    0.0,
+    0.0,
+    1.1628,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "evasion_and_assumption": [
+    0.0,
+    0.9804,
+    3.3898,
+    0.0,
+    3.5714,
+    0.0,
+    0.0,
+    2.9412,
+    0.0,
+    0.0,
+    0.0,
+    0.9615
+   ],
+   "turn_taking": [
+    0.0,
+    2.9412,
+    0.0,
+    2.1978,
+    5.3571,
+    4.4444,
+    2.3256,
+    5.8824,
+    0.0,
+    0.0,
+    1.5385,
+    2.8846
+   ]
+  },
+  "voice": {
+   "sight_and_blindness": [
+    7,
+    1,
+    0,
+    0
+   ],
+   "performance_and_concealment": [
+    2,
+    1,
+    0,
+    0
+   ],
+   "evasion_and_assumption": [
+    5,
+    3,
+    0,
+    0
+   ],
+   "turn_taking": [
+    4,
+    11,
+    6,
+    2
+   ]
+  },
+  "voice_density": {
+   "sight_and_blindness": [
+    0.9602,
+    0.5556,
+    0.0,
+    0.0
+   ],
+   "performance_and_concealment": [
+    0.2743,
+    0.5556,
+    0.0,
+    0.0
+   ],
+   "evasion_and_assumption": [
+    0.6859,
+    1.6667,
+    0.0,
+    0.0
+   ],
+   "turn_taking": [
+    0.5487,
+    6.1111,
+    4.4444,
+    3.6364
+   ]
+  },
+  "sub_stage": {
+   "sight_and_blindness|literal_sight": [
+    2,
+    0,
+    0,
+    1
+   ],
+   "sight_and_blindness|imagined_sight": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "sight_and_blindness|substitute_senses": [
+    2,
+    1,
+    0,
+    1
+   ],
+   "performance_and_concealment|pretence": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "performance_and_concealment|concealment": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "performance_and_concealment|revelation": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "evasion_and_assumption|evasion": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "evasion_and_assumption|assumption": [
+    2,
+    2,
+    1,
+    0
+   ],
+   "evasion_and_assumption|face_work": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "turn_taking|questions": [
+    1,
+    5,
+    0,
+    0
+   ],
+   "turn_taking|turn_markers": [
+    2,
+    3,
+    5,
+    3
+   ],
+   "turn_taking|silence_and_closure": [
+    0,
+    1,
+    1,
+    2
+   ]
+  }
+ },
+ "segment_items": {
+  "sight_and_blindness": [
+   "my eyes sensitive only to light and darkness ×1, I was totally blind at the time ×1, the sound of her slippers ×1",
+   "I heard you come in ×1",
+   "none",
+   "none",
+   "none",
+   "I heard the panting of the engine, the rumble of the wheels ×1, in my mind's eye I could see telegraph posts flashing by ×1",
+   "none",
+   "none",
+   "none",
+   "none",
+   "I wanted to raise my hand and touch her hair but she moved away ×1, staring into the daylight that was darkness for me ×1",
+   "none"
+  ],
+  "performance_and_concealment": [
+   "none",
+   "I didn’t see you either ×1",
+   "I wondered if I would be able to prevent her from discovering that I was blind ×1",
+   "none",
+   "none",
+   "none",
+   "I knew that there were hardly any animals left in the forests near Dehra ×1",
+   "none",
+   "none",
+   "none",
+   "none",
+   "none"
+  ],
+  "evasion_and_assumption": [
+   "none",
+   "They have too much to take in, I suppose ×1",
+   "Then I had better not get too familiar ×1, Aunts are usually formidable creatures ×1",
+   "none",
+   "I wondered if my words had touched her or whether she thought me a romantic fool ×1, Had she noticed already that I could not see ×1",
+   "none",
+   "none",
+   "Oh, so you do have a pretty face, thought I ×1, I thought, then, that I would try to laugh for her, but the thought of laughter only made me feel troubled and lonely ×1",
+   "none",
+   "none",
+   "none",
+   "Can you tell me—did she keep her hair long or short ×1"
+  ],
+  "turn_taking": [
+   "none",
+   "Are you going all the way to Dehra ×1, I asked ×1, I said ×1",
+   "none",
+   "Where are you going ×1, I said ×1",
+   "She was silent ×1, ‘What is it like outside?’ ×1, I asked ×1",
+   "‘Why don’t you look out of the window?’ ×1, ‘Have you noticed,’ I ventured, ‘that the trees seem to be moving while we seem to be standing still?’ ×1, ‘That always happens,’ she said ×1, ‘Do you see any animals?’ ×1",
+   "I turned from the window and faced the girl and for a while we sat in silence ×1, ‘You have an interesting face,’ I remarked ×1",
+   "I said ×1, ‘You are a very gallant young man,’ she said ×1, ‘But why are you so serious?’ ×1, ‘We’ll soon be at your station,’ I said ×1",
+   "none",
+   "none",
+   "There was some confusion in the doorway ×1, Then the door banged and the world was shut out again ×1",
+   "‘You must be disappointed,’ he said ×1, ‘She was an interesting girl,’ I said ×1, ‘I don’t remember,’ he said sounding puzzled ×1"
+  ]
+ },
+ "voice_items": {
+  "sight_and_blindness": [
+   "my eyes sensitive only to light and darkness ×1, I was totally blind at the time ×1, the sound of her slippers ×1, I heard the panting of the engine, the rumble of the wheels ×1, in my mind's eye I could see telegraph posts flashing by ×1, I wanted to raise my hand and touch her hair but she moved away ×1",
+   "I heard you come in ×1",
+   "none",
+   "none"
+  ],
+  "performance_and_concealment": [
+   "I wondered if I would be able to prevent her from discovering that I was blind ×1, I knew that there were hardly any animals left in the forests near Dehra ×1",
+   "I didn’t see you either ×1",
+   "none",
+   "none"
+  ],
+  "evasion_and_assumption": [
+   "They have too much to take in, I suppose ×1, I wondered if my words had touched her or whether she thought me a romantic fool ×1, Had she noticed already that I could not see ×1, Oh, so you do have a pretty face, thought I ×1, I thought, then, that I would try to laugh for her, but the thought of laughter only made me feel troubled and lonely ×1",
+   "Then I had better not get too familiar ×1, Aunts are usually formidable creatures ×1, Can you tell me—did she keep her hair long or short ×1",
+   "none",
+   "none"
+  ],
+  "turn_taking": [
+   "She was silent ×1, I turned from the window and faced the girl and for a while we sat in silence ×1, There was some confusion in the doorway ×1, Then the door banged and the world was shut out again ×1",
+   "I said ×3, I asked ×2, Are you going all the way to Dehra ×1, ‘What is it like outside?’ ×1, ‘Have you noticed,’ I ventured, ‘that the trees seem to be moving while we seem to be standing still?’ ×1, ‘You have an interesting face,’ I remarked ×1",
+   "Where are you going ×1, ‘Why don’t you look out of the window?’ ×1, ‘That always happens,’ she said ×1, ‘Do you see any animals?’ ×1, ‘You are a very gallant young man,’ she said ×1, ‘But why are you so serious?’ ×1",
+   "‘You must be disappointed,’ he said ×1, ‘I don’t remember,’ he said sounding puzzled ×1"
+  ]
+ },
+ "tests": {
+  "sight_and_blindness": {
+   "chi2": 3.8,
+   "chi_p": 0.2781,
+   "rho": -0.29,
+   "rho_p": 0.358
+  },
+  "performance_and_concealment": {
+   "chi2": null,
+   "chi_p": null,
+   "rho": -0.4,
+   "rho_p": 0.193
+  },
+  "evasion_and_assumption": {
+   "chi2": 0.7,
+   "chi_p": 0.8843,
+   "rho": -0.22,
+   "rho_p": 0.495
+  },
+  "turn_taking": {
+   "chi2": 5.2,
+   "chi_p": 0.1589,
+   "rho": 0.02,
+   "rho_p": 0.939
+  }
+ },
+ "figures": [
+  {
+   "n": 1,
+   "file": "fig1_heatmap",
+   "title": "Figure 1. Where does each dimension appear in the story?",
+   "how": "Each row is one dimension and each column is one segment of the story, in order. The number in each square is the number of hits; the shade shows hits per 100 words, so short and long segments can be compared. Dotted red lines mark where a new stage begins.",
+   "shows": "Sight and blindness is densest in segment 6 (At the window: the pretence of looking: 2.2 per 100 words) and absent from segments 3, 4, 5, 7, 8, 9, 10, 12; performance and concealment is densest in segment 3 (The resolve to hide, and the aunt at Saharanpur: 1.7 per 100 words) and absent from segments 1, 4, 5, 6, 8, 9, 10, 11, 12; evasion and assumption is densest in segment 5 (\"What is it like outside?\": 3.6 per 100 words) and absent from segments 1, 4, 6, 7, 9, 10, 11; turn-taking is densest in segment 8 (Gallant and serious, and the journey's end: 5.9 per 100 words) and absent from segments 1, 3, 9, 10."
+  },
+  {
+   "n": 2,
+   "file": "fig2_subtypes_bubble",
+   "title": "Figure 2. Which sub-types are strongest, and where?",
+   "how": "Each row is one sub-type (the number in brackets is its dimension). Each bubble is a segment. A bigger bubble means more phrases of that sub-type in that segment.",
+   "shows": "The largest sub-types are turn markers (13 hits), questions (6 hits), assumption (5 hits). No hits were found for: revelation."
+  },
+  {
+   "n": 3,
+   "file": "fig3_stages",
+   "title": "Figure 3. How do the stages differ?",
+   "how": "The story is grouped into four stages. Each bar shows hits per 100 words, so a longer stage does not look stronger only because it is longer.",
+   "shows": "Sight and blindness peaks in Stage I (1.31 per 100 words; range 0.00 to 1.31); performance and concealment peaks in Stage I (0.65 per 100 words; range 0.00 to 0.65); evasion and assumption peaks in Stage I (0.98 per 100 words; range 0.43 to 0.98); turn-taking peaks in Stage II (3.80 per 100 words; range 0.98 to 3.80)."
+  },
+  {
+   "n": 4,
+   "file": "fig4_timeline",
+   "title": "Figure 4. How does each dimension change across the story?",
+   "how": "Each line is one dimension followed across the segments in story order, in hits per 100 words. A rising line means that the dimension grows denser as the story moves on.",
+   "shows": "Sight and blindness shows no steady trend (rho = -0.29) and moves in bursts; performance and concealment shows no steady trend (rho = -0.40) and moves in bursts; evasion and assumption shows no steady trend (rho = -0.22) and moves in bursts; turn-taking shows no steady trend (rho = +0.02) and moves in bursts."
+  },
+  {
+   "n": 5,
+   "file": "fig5_top_phrases",
+   "title": "Figure 5. Which phrases carry the most weight?",
+   "how": "The fifteen most frequent phrases in the extraction, coloured by dimension.",
+   "shows": "The most frequent items are \"I said\" (3), \"I asked\" (2), \"my eyes sensitive only to light and darkness\" (1), \"I was totally blind at the time\" (1), \"the sound of her slippers\" (1). Together, the 15 most frequent items account for 18 of the 42 hits."
+  },
+  {
+   "n": 6,
+   "file": "fig6_voices",
+   "title": "Figure 6. Whose words carry each dimension?",
+   "how": "Each group of bars is one voice: the narrator's narration and thoughts, the narrator speaking aloud, the girl, and the man who boards at Saharanpur. Each bar shows hits per 100 words of that voice, so the girl's short speeches can be compared with the narrator's long narration.",
+   "shows": "Sight and blindness is densest in the narrator's narration and thoughts (0.96 per 100 words); performance and concealment is densest in the narrator's speech (0.56 per 100 words); evasion and assumption is densest in the narrator's speech (1.67 per 100 words); turn-taking is densest in the narrator's speech (6.11 per 100 words). The girl's 135 words contain 6 hits in all; the man's 55 words contain 2."
+  }
+ ],
+ "top_items": [
+  [
+   "I said",
+   3,
+   "turn_taking"
+  ],
+  [
+   "I asked",
+   2,
+   "turn_taking"
+  ],
+  [
+   "my eyes sensitive only to light and darkness",
+   1,
+   "sight_and_blindness"
+  ],
+  [
+   "I was totally blind at the time",
+   1,
+   "sight_and_blindness"
+  ],
+  [
+   "the sound of her slippers",
+   1,
+   "sight_and_blindness"
+  ],
+  [
+   "Are you going all the way to Dehra",
+   1,
+   "turn_taking"
+  ],
+  [
+   "They have too much to take in, I suppose",
+   1,
+   "evasion_and_assumption"
+  ],
+  [
+   "I didn’t see you either",
+   1,
+   "performance_and_concealment"
+  ],
+  [
+   "I heard you come in",
+   1,
+   "sight_and_blindness"
+  ],
+  [
+   "I wondered if I would be able to prevent her from discovering that I was blind",
+   1,
+   "performance_and_concealment"
+  ],
+  [
+   "Then I had better not get too familiar",
+   1,
+   "evasion_and_assumption"
+  ],
+  [
+   "Aunts are usually formidable creatures",
+   1,
+   "evasion_and_assumption"
+  ],
+  [
+   "Where are you going",
+   1,
+   "turn_taking"
+  ],
+  [
+   "She was silent",
+   1,
+   "turn_taking"
+  ],
+  [
+   "I wondered if my words had touched her or whether she thought me a romantic fool",
+   1,
+   "evasion_and_assumption"
+  ]
+ ]
+}

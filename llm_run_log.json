@@ -1,0 +1,185 @@
+{
+ "model": "qwen2.5:7b",
+ "ollama_version": "0.40.13",
+ "hardware": "Tesla T4",
+ "date": "31 October 2026",
+ "options": {
+  "temperature": 0,
+  "seed": 42,
+  "num_ctx": 8192,
+  "num_predict": 3072
+ },
+ "chunks": [
+  {
+   "sentences": [
+    1,
+    33
+   ],
+   "answer": {
+    "sight_and_blindness": {
+     "literal_sight": [
+      "I was totally blind at the time",
+      "my eyes sensitive only to light and darkness"
+     ],
+     "imagined_sight": [],
+     "substitute_senses": [
+      "I heard you come in",
+      "the sound of her slippers"
+     ]
+    },
+    "performance_and_concealment": {
+     "pretence": [
+      "I didn’t see you either",
+      "I heard you come in"
+     ],
+     "concealment": [
+      "I wondered if I would be able to prevent her from discovering that I was blind"
+     ],
+     "revelation": []
+    },
+    "evasion_and_assumption": {
+     "evasion": [
+      "I didn’t see you either",
+      "I wondered if I would be able to prevent her from discovering that I was blind"
+     ],
+     "assumption": [
+      "They have too much to take in, I suppose",
+      "Aunts are usually formidable creatures"
+     ],
+     "face_work": [
+      "Then I had better not get too familiar"
+     ]
+    },
+    "turn_taking": {
+     "questions": [
+      "Are you going all the way to Dehra?",
+      "Where are you going?"
+     ],
+     "turn_markers": [
+      "I asked",
+      "She said",
+      "I said"
+     ],
+     "silence_and_closure": [
+      "She was silent"
+     ]
+    }
+   }
+  },
+  {
+   "sentences": [
+    34,
+    66
+   ],
+   "answer": {
+    "sight_and_blindness": {
+     "literal_sight": [],
+     "imagined_sight": [
+      "in my mind's eye I could see telegraph posts flashing by"
+     ],
+     "substitute_senses": [
+      "I heard the panting of the engine, the rumble of the wheels"
+     ]
+    },
+    "performance_and_concealment": {
+     "pretence": [
+      "I made a pretence of studying the landscape"
+     ],
+     "concealment": [
+      "I knew that there were hardly any animals left in the forests near Dehra"
+     ],
+     "revelation": []
+    },
+    "evasion_and_assumption": {
+     "evasion": [
+      "I ventured, ‘that the trees seem to be moving while we seem to be standing still?’",
+      "I thought, then, that I would try to laugh for her, but the thought of laughter only made me feel troubled and lonely"
+     ],
+     "assumption": [
+      "I wondered if my words had touched her or whether she thought me a romantic fool",
+      "Had she noticed already that I could not see",
+      "Oh, so you do have a pretty face, thought I"
+     ],
+     "face_work": [
+      "‘You are a very gallant young man’"
+     ]
+    },
+    "turn_taking": {
+     "questions": [
+      "‘What is it like outside?’",
+      "‘Why don’t you look out of the window?’",
+      "‘Have you noticed,’ I ventured, ‘that the trees seem to be moving while we seem to be standing still?’",
+      "‘Do you see any animals?’"
+     ],
+     "turn_markers": [
+      "‘That always happens,’ she said",
+      "‘You have an interesting face,’ I remarked",
+      "‘It’s nice to be told I have an interesting face. I’m tired of people telling me I have a pretty face.’",
+      "‘You are a very gallant young man,’ she said",
+      "‘But why are you so serious?’",
+      "‘We’ll soon be at your station,’ I said"
+     ],
+     "silence_and_closure": [
+      "I turned from the window and faced the girl and for a while we sat in silence"
+     ]
+    }
+   }
+  },
+  {
+   "sentences": [
+    67,
+    99
+   ],
+   "answer": {
+    "sight_and_blindness": {
+     "literal_sight": [
+      "staring into the daylight that was darkness for me"
+     ],
+     "imagined_sight": [
+      "She had beautiful eyes but they were of no use to her. She was completely blind. Didn’t you notice?"
+     ],
+     "substitute_senses": [
+      "I wanted to raise my hand and touch her hair but she moved away"
+     ]
+    },
+    "performance_and_concealment": {
+     "pretence": [
+      "She was an interesting girl,"
+     ],
+     "concealment": [
+      "I don’t remember,"
+     ],
+     "revelation": [
+      "She had beautiful eyes but they were of no use to her. She was completely blind."
+     ]
+    },
+    "evasion_and_assumption": {
+     "evasion": [
+      "Can you tell me—did she keep her hair long or short?"
+     ],
+     "assumption": [
+      "I wondered if she wore her hair in a bun or if it was plaited. Perhaps it was hanging loose over her shoulders. Or was it cut very short?"
+     ],
+     "face_work": [
+      "You must be disappointed,"
+     ]
+    },
+    "turn_taking": {
+     "questions": [
+      "Can you tell me—did she keep her hair long or short?"
+     ],
+     "turn_markers": [
+      "‘She was an interesting girl,’ I said.",
+      "‘I don’t remember,’ he said sounding puzzled.",
+      "‘You must be disappointed,’ he said."
+     ],
+     "silence_and_closure": [
+      "There was some confusion in the doorway.",
+      "Then the door banged and the world was shut out again."
+     ]
+    }
+   }
+  }
+ ],
+ "prompt_sha256": "907024ffc968cfea6e48f076eef5cfdd4b4501c6a3528f33c1ce91e0006dff9f"
+}
